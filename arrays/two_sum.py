@@ -14,3 +14,8 @@ def two_sum(nums: list[int], target: int) -> list[int]:
             return [seen[complement], i]
         seen[num] = i
     return []
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Two Sum
+    print('Tested two_sum.py (Two Sum)')
