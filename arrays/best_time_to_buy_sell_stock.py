@@ -1,3 +1,10 @@
+"""
+Problem: Best Time to Buy and Sell Stock
+Approach: Single pass min tracking
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""
+
 def max_profit(prices: list[int]) -> int:
     """Track minimum price seen so far and max profit."""
     min_price = float('inf')
