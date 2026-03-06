@@ -15,3 +15,8 @@ def max_profit(prices: list[int]) -> int:
         elif p - min_price > best:
             best = p - min_price
     return best
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Best Time to Buy and Sell Stock
+    print('Tested best_time_to_buy_sell_stock.py (Best Time to Buy and Sell Stock)')
