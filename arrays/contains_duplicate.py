@@ -13,3 +13,8 @@ def contains_duplicate(nums: list[int]) -> bool:
             return True
         seen.add(n)
     return False
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Contains Duplicate
+    print('Tested contains_duplicate.py (Contains Duplicate)')
