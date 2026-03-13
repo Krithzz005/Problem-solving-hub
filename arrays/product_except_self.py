@@ -1,3 +1,10 @@
+"""
+Problem: Product of Array Except Self
+Approach: Prefix and suffix products
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""
+
 def product_except_self(nums: list[int]) -> list[int]:
     """Compute product of all elements except self without division."""
     n = len(nums)
