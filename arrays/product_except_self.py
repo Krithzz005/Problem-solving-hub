@@ -18,3 +18,8 @@ def product_except_self(nums: list[int]) -> list[int]:
         res[i] *= suffix
         suffix *= nums[i]
     return res
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Product of Array Except Self
+    print('Tested product_except_self.py (Product of Array Except Self)')
