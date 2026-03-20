@@ -12,3 +12,8 @@ def max_sub_array(nums: list[int]) -> int:
         cur_sum = max(num, cur_sum + num)
         max_sum = max(max_sum, cur_sum)
     return max_sum
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Maximum Subarray
+    print('Tested maximum_subarray.py (Maximum Subarray)')
