@@ -1,3 +1,10 @@
+"""
+Problem: Maximum Product Subarray
+Approach: Dynamic min/max tracking
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""
+
 def max_product(nums: list[int]) -> int:
     """Track both max and min product ending at current index due to negatives."""
     cur_max = cur_min = ans = nums[0]
