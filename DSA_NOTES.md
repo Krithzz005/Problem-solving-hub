@@ -9,3 +9,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Contains Duplicate** (`arrays/contains_duplicate.py`): hash set — Time `O(n)`, Space `O(n)`
 - **Product of Array Except Self** (`arrays/product_except_self.py`): prefix and suffix products — Time `O(n)`, Space `O(1)`
 - **Maximum Subarray** (`arrays/maximum_subarray.py`): Kadane's algorithm — Time `O(n)`, Space `O(1)`
+- **Maximum Product Subarray** (`arrays/maximum_product_subarray.py`): dynamic min/max tracking — Time `O(n)`, Space `O(1)`
