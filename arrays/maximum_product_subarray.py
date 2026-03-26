@@ -15,3 +15,8 @@ def max_product(nums: list[int]) -> int:
         cur_min = min(n, cur_min * n)
         ans = max(ans, cur_max)
     return ans
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Maximum Product Subarray
+    print('Tested maximum_product_subarray.py (Maximum Product Subarray)')
