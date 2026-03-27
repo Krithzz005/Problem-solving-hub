@@ -1,3 +1,10 @@
+"""
+Problem: 3Sum
+Approach: Sorting + two pointers
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+"""
+
 def three_sum(nums: list[int]) -> list[list[int]]:
     """Find all unique triplets that sum up to zero."""
     nums.sort()
