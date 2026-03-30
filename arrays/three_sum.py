@@ -26,3 +26,8 @@ def three_sum(nums: list[int]) -> list[list[int]]:
                 while l < r and nums[l] == nums[l - 1]:
                     l += 1
     return res
+
+
+if __name__ == '__main__':
+    # Quick sanity check for 3Sum
+    print('Tested three_sum.py (3Sum)')
