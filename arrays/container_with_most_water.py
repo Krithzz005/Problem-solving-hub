@@ -1,3 +1,10 @@
+"""
+Problem: Container With Most Water
+Approach: Greedy two pointers
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""
+
 def max_area(height: list[int]) -> int:
     """Use two pointers inward from both ends to maximize area."""
     l, r = 0, len(height) - 1
