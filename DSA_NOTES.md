@@ -11,3 +11,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Maximum Subarray** (`arrays/maximum_subarray.py`): Kadane's algorithm — Time `O(n)`, Space `O(1)`
 - **Maximum Product Subarray** (`arrays/maximum_product_subarray.py`): dynamic min/max tracking — Time `O(n)`, Space `O(1)`
 - **3Sum** (`arrays/three_sum.py`): sorting + two pointers — Time `O(n^2)`, Space `O(1)`
+- **Container With Most Water** (`arrays/container_with_most_water.py`): greedy two pointers — Time `O(n)`, Space `O(1)`
