@@ -17,3 +17,8 @@ def max_area(height: list[int]) -> int:
         else:
             r -= 1
     return best
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Container With Most Water
+    print('Tested container_with_most_water.py (Container With Most Water)')
