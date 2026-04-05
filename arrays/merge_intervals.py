@@ -1,3 +1,10 @@
+"""
+Problem: Merge Intervals
+Approach: Interval sorting
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+"""
+
 def merge_intervals(intervals: list[list[int]]) -> list[list[int]]:
     """Merge all overlapping intervals after sorting by start time."""
     intervals.sort(key=lambda x: x[0])
