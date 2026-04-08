@@ -12,3 +12,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Maximum Product Subarray** (`arrays/maximum_product_subarray.py`): dynamic min/max tracking — Time `O(n)`, Space `O(1)`
 - **3Sum** (`arrays/three_sum.py`): sorting + two pointers — Time `O(n^2)`, Space `O(1)`
 - **Container With Most Water** (`arrays/container_with_most_water.py`): greedy two pointers — Time `O(n)`, Space `O(1)`
+- **Merge Intervals** (`arrays/merge_intervals.py`): interval sorting — Time `O(n log n)`, Space `O(n)`
