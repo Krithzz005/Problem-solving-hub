@@ -15,3 +15,8 @@ def merge_intervals(intervals: list[list[int]]) -> list[list[int]]:
         else:
             merged.append([start, end])
     return merged
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Merge Intervals
+    print('Tested merge_intervals.py (Merge Intervals)')
