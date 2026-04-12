@@ -1,3 +1,10 @@
+"""
+Problem: Rotate Image
+Approach: Matrix transpose and reverse
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+"""
+
 def rotate(matrix: list[list[int]]) -> None:
     """Rotate n x n 2D matrix by 90 degrees clockwise in-place."""
     n = len(matrix)
