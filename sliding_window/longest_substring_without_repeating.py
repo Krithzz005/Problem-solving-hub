@@ -1,3 +1,10 @@
+"""
+Problem: Longest Substring Without Repeating Characters
+Approach: Sliding window + index map
+Time Complexity: O(n)
+Space Complexity: O(min(m, n))
+"""
+
 def length_of_longest_substring(s: str) -> int:
     """Find longest substring without duplicate characters using sliding window."""
     last_seen = {}
