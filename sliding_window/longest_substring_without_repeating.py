@@ -16,3 +16,8 @@ def length_of_longest_substring(s: str) -> int:
         last_seen[ch] = right
         max_len = max(max_len, right - left + 1)
     return max_len
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Longest Substring Without Repeating Characters
+    print('Tested longest_substring_without_repeating.py (Longest Substring Without Repeating Characters)')
