@@ -1,3 +1,10 @@
+"""
+Problem: Minimum Window Substring
+Approach: Two pointers + frequency map
+Time Complexity: O(n)
+Space Complexity: O(k)
+"""
+
 from collections import Counter
 
 def min_window(s: str, t: str) -> str:
