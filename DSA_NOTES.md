@@ -15,3 +15,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Merge Intervals** (`arrays/merge_intervals.py`): interval sorting — Time `O(n log n)`, Space `O(n)`
 - **Rotate Image** (`arrays/rotate_image.py`): matrix transpose and reverse — Time `O(n^2)`, Space `O(1)`
 - **Longest Substring Without Repeating Characters** (`sliding_window/longest_substring_without_repeating.py`): sliding window + index map — Time `O(n)`, Space `O(min(m, n))`
+- **Minimum Window Substring** (`sliding_window/minimum_window_substring.py`): two pointers + frequency map — Time `O(n)`, Space `O(k)`
