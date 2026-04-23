@@ -28,3 +28,8 @@ def min_window(s: str, t: str) -> str:
             missing += 1
             left += 1
     return s[start:end]
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Minimum Window Substring
+    print('Tested minimum_window_substring.py (Minimum Window Substring)')
