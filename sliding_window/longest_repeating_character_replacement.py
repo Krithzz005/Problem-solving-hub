@@ -1,3 +1,10 @@
+"""
+Problem: Longest Repeating Character Replacement
+Approach: Sliding window max freq
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""
+
 def character_replacement(s: str, k: int) -> int:
     """Find length of longest substring containing same letter after k replacements."""
     count = {}
