@@ -19,3 +19,8 @@ def character_replacement(s: str, k: int) -> int:
             l += 1
         res = max(res, r - l + 1)
     return res
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Longest Repeating Character Replacement
+    print('Tested longest_repeating_character_replacement.py (Longest Repeating Character Replacement)')
