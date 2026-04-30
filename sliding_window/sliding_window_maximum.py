@@ -1,3 +1,10 @@
+"""
+Problem: Sliding Window Maximum
+Approach: Monotonic decreasing deque
+Time Complexity: O(n)
+Space Complexity: O(k)
+"""
+
 from collections import deque
 
 def max_sliding_window(nums: list[int], k: int) -> list[int]:
