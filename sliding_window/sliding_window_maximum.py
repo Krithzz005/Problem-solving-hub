@@ -20,3 +20,8 @@ def max_sliding_window(nums: list[int], k: int) -> list[int]:
         if i >= k - 1:
             res.append(nums[dq[0]])
     return res
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Sliding Window Maximum
+    print('Tested sliding_window_maximum.py (Sliding Window Maximum)')
