@@ -1,3 +1,10 @@
+"""
+Problem: Search in Rotated Sorted Array
+Approach: One-pass binary search
+Time Complexity: O(log n)
+Space Complexity: O(1)
+"""
+
 def search_rotated(nums: list[int], target: int) -> int:
     """Search target in rotated sorted array in O(log n) time."""
     l, r = 0, len(nums) - 1
