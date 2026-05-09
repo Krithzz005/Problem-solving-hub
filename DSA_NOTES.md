@@ -19,3 +19,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Longest Repeating Character Replacement** (`sliding_window/longest_repeating_character_replacement.py`): sliding window max freq — Time `O(n)`, Space `O(1)`
 - **Sliding Window Maximum** (`sliding_window/sliding_window_maximum.py`): monotonic decreasing deque — Time `O(n)`, Space `O(k)`
 - **Find Minimum in Rotated Sorted Array** (`binary_search/find_min_in_rotated_sorted_array.py`): modified binary search — Time `O(log n)`, Space `O(1)`
+- **Search in Rotated Sorted Array** (`binary_search/search_in_rotated_sorted_array.py`): one-pass binary search — Time `O(log n)`, Space `O(1)`
