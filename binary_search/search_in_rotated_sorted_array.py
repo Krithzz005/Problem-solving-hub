@@ -23,3 +23,8 @@ def search_rotated(nums: list[int], target: int) -> int:
             else:
                 r = mid - 1
     return -1
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Search in Rotated Sorted Array
+    print('Tested search_in_rotated_sorted_array.py (Search in Rotated Sorted Array)')
