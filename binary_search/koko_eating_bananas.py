@@ -1,3 +1,10 @@
+"""
+Problem: Koko Eating Bananas
+Approach: Binary search on answer space
+Time Complexity: O(n log M)
+Space Complexity: O(1)
+"""
+
 import math
 
 def min_eating_speed(piles: list[int], h: int) -> int:
