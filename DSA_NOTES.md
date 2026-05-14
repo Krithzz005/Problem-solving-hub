@@ -20,3 +20,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Sliding Window Maximum** (`sliding_window/sliding_window_maximum.py`): monotonic decreasing deque — Time `O(n)`, Space `O(k)`
 - **Find Minimum in Rotated Sorted Array** (`binary_search/find_min_in_rotated_sorted_array.py`): modified binary search — Time `O(log n)`, Space `O(1)`
 - **Search in Rotated Sorted Array** (`binary_search/search_in_rotated_sorted_array.py`): one-pass binary search — Time `O(log n)`, Space `O(1)`
+- **Koko Eating Bananas** (`binary_search/koko_eating_bananas.py`): binary search on answer space — Time `O(n log M)`, Space `O(1)`
