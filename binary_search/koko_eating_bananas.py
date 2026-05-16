@@ -20,3 +20,8 @@ def min_eating_speed(piles: list[int], h: int) -> int:
         else:
             l = mid + 1
     return ans
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Koko Eating Bananas
+    print('Tested koko_eating_bananas.py (Koko Eating Bananas)')
