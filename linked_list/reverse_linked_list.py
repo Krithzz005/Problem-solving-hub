@@ -1,3 +1,10 @@
+"""
+Problem: Reverse Linked List
+Approach: Iterative pointer reversal
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
