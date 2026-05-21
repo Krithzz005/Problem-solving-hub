@@ -19,3 +19,8 @@ def reverse_list(head: ListNode | None) -> ListNode | None:
         prev = curr
         curr = nxt
     return prev
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Reverse Linked List
+    print('Tested reverse_linked_list.py (Reverse Linked List)')
