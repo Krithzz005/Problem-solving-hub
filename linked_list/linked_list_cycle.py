@@ -14,3 +14,8 @@ def has_cycle(head) -> bool:
         if slow is fast:
             return True
     return False
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Linked List Cycle
+    print('Tested linked_list_cycle.py (Linked List Cycle)')
