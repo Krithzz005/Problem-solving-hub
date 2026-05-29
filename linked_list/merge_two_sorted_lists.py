@@ -1,3 +1,10 @@
+"""
+Problem: Merge Two Sorted Lists
+Approach: Dummy head iterative merge
+Time Complexity: O(n + m)
+Space Complexity: O(1)
+"""
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
