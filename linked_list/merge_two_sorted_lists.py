@@ -23,3 +23,8 @@ def merge_two_lists(l1: ListNode | None, l2: ListNode | None) -> ListNode | None
         curr = curr.next
     curr.next = l1 or l2
     return dummy.next
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Merge Two Sorted Lists
+    print('Tested merge_two_sorted_lists.py (Merge Two Sorted Lists)')
