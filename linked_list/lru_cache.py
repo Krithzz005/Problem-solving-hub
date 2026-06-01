@@ -1,3 +1,10 @@
+"""
+Problem: LRU Cache
+Approach: Hash map + doubly linked list
+Time Complexity: O(1)
+Space Complexity: O(capacity)
+"""
+
 from collections import OrderedDict
 
 class LRUCache:
