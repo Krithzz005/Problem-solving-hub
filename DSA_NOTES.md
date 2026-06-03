@@ -24,3 +24,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Reverse Linked List** (`linked_list/reverse_linked_list.py`): iterative pointer reversal — Time `O(n)`, Space `O(1)`
 - **Linked List Cycle** (`linked_list/linked_list_cycle.py`): Floyd's tortoise and hare — Time `O(n)`, Space `O(1)`
 - **Merge Two Sorted Lists** (`linked_list/merge_two_sorted_lists.py`): dummy head iterative merge — Time `O(n + m)`, Space `O(1)`
+- **LRU Cache** (`linked_list/lru_cache.py`): hash map + doubly linked list — Time `O(1)`, Space `O(capacity)`
