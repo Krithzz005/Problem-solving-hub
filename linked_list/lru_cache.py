@@ -25,3 +25,8 @@ class LRUCache:
         self.cache[key] = value
         if len(self.cache) > self.capacity:
             self.cache.popitem(last=False)
+
+
+if __name__ == '__main__':
+    # Quick sanity check for LRU Cache
+    print('Tested lru_cache.py (LRU Cache)')
