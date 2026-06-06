@@ -1,3 +1,10 @@
+"""
+Problem: Invert Binary Tree
+Approach: Recursive dfs swap
+Time Complexity: O(n)
+Space Complexity: O(h)
+"""
+
 def invert_tree(root):
     """Mirror a binary tree by recursively swapping left and right children."""
     if not root:
