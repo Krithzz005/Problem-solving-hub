@@ -11,3 +11,8 @@ def invert_tree(root):
         return None
     root.left, root.right = invert_tree(root.right), invert_tree(root.left)
     return root
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Invert Binary Tree
+    print('Tested invert_binary_tree.py (Invert Binary Tree)')
