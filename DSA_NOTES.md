@@ -26,3 +26,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Merge Two Sorted Lists** (`linked_list/merge_two_sorted_lists.py`): dummy head iterative merge — Time `O(n + m)`, Space `O(1)`
 - **LRU Cache** (`linked_list/lru_cache.py`): hash map + doubly linked list — Time `O(1)`, Space `O(capacity)`
 - **Invert Binary Tree** (`trees/invert_binary_tree.py`): recursive DFS swap — Time `O(n)`, Space `O(h)`
+- **Maximum Depth of Binary Tree** (`trees/max_depth_binary_tree.py`): bottom-up recursion — Time `O(n)`, Space `O(h)`
