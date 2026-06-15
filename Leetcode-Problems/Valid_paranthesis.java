@@ -8,15 +8,13 @@ public class Solution {
 
         for (char ch : s.toCharArray()) {
 
-            // Push opening brackets
             if (ch == '(' || ch == '{' || ch == '[') {
                 stack.push(ch);
             }
 
-            // Check closing brackets
             else {
                 if (stack.isEmpty()) {
-                    return false; // no matching opening bracket
+                    return false; 
                 }
 
                 char top = stack.pop();
@@ -29,12 +27,12 @@ public class Solution {
             }
         }
 
-        // Stack should be empty for valid parentheses
+ 
         return stack.isEmpty();
     }
 
     public static void main(String[] args) {
         String s = "{[()]}";
-        System.out.println(isValid(s)); // true
+        System.out.println(isValid(s)); 
     }
 }
