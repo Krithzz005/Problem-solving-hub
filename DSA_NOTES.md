@@ -27,3 +27,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **LRU Cache** (`linked_list/lru_cache.py`): hash map + doubly linked list — Time `O(1)`, Space `O(capacity)`
 - **Invert Binary Tree** (`trees/invert_binary_tree.py`): recursive DFS swap — Time `O(n)`, Space `O(h)`
 - **Maximum Depth of Binary Tree** (`trees/max_depth_binary_tree.py`): bottom-up recursion — Time `O(n)`, Space `O(h)`
+- **Validate Binary Search Tree** (`trees/validate_bst.py`): range-bounded DFS — Time `O(n)`, Space `O(h)`
