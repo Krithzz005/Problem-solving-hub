@@ -14,3 +14,8 @@ def is_valid_bst(root) -> bool:
             return False
         return dfs(node.left, low, node.val) and dfs(node.right, node.val, high)
     return dfs(root, float('-inf'), float('inf'))
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Validate Binary Search Tree
+    print('Tested validate_bst.py (Validate Binary Search Tree)')
