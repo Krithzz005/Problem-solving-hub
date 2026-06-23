@@ -14,3 +14,8 @@ def lowest_common_ancestor(root, p, q):
     if left and right:
         return root
     return left or right
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Lowest Common Ancestor of a Binary Tree
+    print('Tested lowest_common_ancestor.py (Lowest Common Ancestor of a Binary Tree)')
