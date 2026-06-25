@@ -1,3 +1,10 @@
+"""
+Problem: Binary Tree Level Order Traversal
+Approach: Bfs queue
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
+
 from collections import deque
 
 def level_order(root) -> list[list[int]]:
