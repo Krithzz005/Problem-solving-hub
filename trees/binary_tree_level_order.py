@@ -24,3 +24,8 @@ def level_order(root) -> list[list[int]]:
                 q.append(node.right)
         res.append(level)
     return res
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Binary Tree Level Order Traversal
+    print('Tested binary_tree_level_order.py (Binary Tree Level Order Traversal)')
