@@ -1,3 +1,10 @@
+"""
+Problem: Implement Trie (Prefix Tree)
+Approach: Nested dictionary nodes
+Time Complexity: O(L)
+Space Complexity: O(N * L)
+"""
+
 class Trie:
     """Prefix tree supporting insert, exact search, and prefix matching."""
     def __init__(self):
