@@ -30,3 +30,8 @@ class Trie:
                 return None
             node = node[ch]
         return node
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Implement Trie (Prefix Tree)
+    print('Tested implement_trie.py (Implement Trie (Prefix Tree))')
