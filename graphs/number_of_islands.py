@@ -1,3 +1,10 @@
+"""
+Problem: Number of Islands
+Approach: Grid dfs flood fill
+Time Complexity: O(R * C)
+Space Complexity: O(R * C)
+"""
+
 def num_islands(grid: list[list[str]]) -> int:
     """Count connected components of '1's in 2D grid."""
     if not grid:
