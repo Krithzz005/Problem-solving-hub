@@ -31,3 +31,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Lowest Common Ancestor of a Binary Tree** (`trees/lowest_common_ancestor.py`): post-order traversal — Time `O(n)`, Space `O(h)`
 - **Binary Tree Level Order Traversal** (`trees/binary_tree_level_order.py`): BFS queue — Time `O(n)`, Space `O(n)`
 - **Implement Trie (Prefix Tree)** (`trees/implement_trie.py`): nested dictionary nodes — Time `O(L)`, Space `O(N * L)`
+- **Number of Islands** (`graphs/number_of_islands.py`): grid DFS flood fill — Time `O(R * C)`, Space `O(R * C)`
