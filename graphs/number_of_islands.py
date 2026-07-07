@@ -27,3 +27,8 @@ def num_islands(grid: list[list[str]]) -> int:
                 count += 1
                 dfs(r, c)
     return count
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Number of Islands
+    print('Tested number_of_islands.py (Number of Islands)')
