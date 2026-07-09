@@ -1,3 +1,10 @@
+"""
+Problem: Course Schedule
+Approach: Kahn's topological sort (bfs)
+Time Complexity: O(V + E)
+Space Complexity: O(V + E)
+"""
+
 from collections import deque
 
 def can_finish(num_courses: int, prerequisites: list[list[int]]) -> bool:
