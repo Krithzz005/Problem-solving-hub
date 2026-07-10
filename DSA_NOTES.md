@@ -32,3 +32,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Binary Tree Level Order Traversal** (`trees/binary_tree_level_order.py`): BFS queue — Time `O(n)`, Space `O(n)`
 - **Implement Trie (Prefix Tree)** (`trees/implement_trie.py`): nested dictionary nodes — Time `O(L)`, Space `O(N * L)`
 - **Number of Islands** (`graphs/number_of_islands.py`): grid DFS flood fill — Time `O(R * C)`, Space `O(R * C)`
+- **Course Schedule** (`graphs/course_schedule.py`): Kahn's topological sort (BFS) — Time `O(V + E)`, Space `O(V + E)`
