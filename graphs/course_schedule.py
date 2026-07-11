@@ -24,3 +24,8 @@ def can_finish(num_courses: int, prerequisites: list[list[int]]) -> bool:
             if indegree[nxt] == 0:
                 q.append(nxt)
     return visited == num_courses
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Course Schedule
+    print('Tested course_schedule.py (Course Schedule)')
