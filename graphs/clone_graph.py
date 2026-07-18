@@ -26,3 +26,8 @@ def clone_graph(node: 'Node | None') -> 'Node | None':
         return copy
 
     return dfs(node)
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Clone Graph
+    print('Tested clone_graph.py (Clone Graph)')
