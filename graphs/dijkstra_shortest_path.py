@@ -1,3 +1,10 @@
+"""
+Problem: Network Delay Time (Dijkstra)
+Approach: Min-heap priority queue
+Time Complexity: O(E log V)
+Space Complexity: O(V + E)
+"""
+
 import heapq
 from collections import defaultdict
 
