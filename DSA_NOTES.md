@@ -34,3 +34,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Number of Islands** (`graphs/number_of_islands.py`): grid DFS flood fill — Time `O(R * C)`, Space `O(R * C)`
 - **Course Schedule** (`graphs/course_schedule.py`): Kahn's topological sort (BFS) — Time `O(V + E)`, Space `O(V + E)`
 - **Clone Graph** (`graphs/clone_graph.py`): DFS with hash map memoization — Time `O(V + E)`, Space `O(V)`
+- **Network Delay Time (Dijkstra)** (`graphs/dijkstra_shortest_path.py`): min-heap priority queue — Time `O(E log V)`, Space `O(V + E)`
