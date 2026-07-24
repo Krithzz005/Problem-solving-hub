@@ -24,3 +24,8 @@ def network_delay_time(times: list[list[int]], n: int, k: int) -> int:
             if v not in dist:
                 heapq.heappush(pq, (d + w, v))
     return max(dist.values()) if len(dist) == n else -1
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Network Delay Time (Dijkstra)
+    print('Tested dijkstra_shortest_path.py (Network Delay Time (Dijkstra))')
