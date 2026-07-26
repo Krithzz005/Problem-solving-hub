@@ -1,3 +1,10 @@
+"""
+Problem: Redundant Connection
+Approach: Disjoint set union (path compression + rank)
+Time Complexity: O(n alpha(n))
+Space Complexity: O(n)
+"""
+
 def find_redundant_connection(edges: list[list[int]]) -> list[int]:
     """Use Union-Find with path compression to find cycle-creating edge."""
     parent = list(range(len(edges) + 1))
