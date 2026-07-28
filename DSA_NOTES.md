@@ -35,3 +35,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Course Schedule** (`graphs/course_schedule.py`): Kahn's topological sort (BFS) — Time `O(V + E)`, Space `O(V + E)`
 - **Clone Graph** (`graphs/clone_graph.py`): DFS with hash map memoization — Time `O(V + E)`, Space `O(V)`
 - **Network Delay Time (Dijkstra)** (`graphs/dijkstra_shortest_path.py`): min-heap priority queue — Time `O(E log V)`, Space `O(V + E)`
+- **Redundant Connection** (`graphs/union_find_redundant_connection.py`): Disjoint Set Union (path compression + rank) — Time `O(n alpha(n))`, Space `O(n)`
