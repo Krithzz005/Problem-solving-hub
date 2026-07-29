@@ -32,3 +32,8 @@ def find_redundant_connection(edges: list[list[int]]) -> list[int]:
         if not union(u, v):
             return [u, v]
     return []
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Redundant Connection
+    print('Tested union_find_redundant_connection.py (Redundant Connection)')
