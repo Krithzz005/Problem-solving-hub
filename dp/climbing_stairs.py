@@ -13,3 +13,8 @@ def climb_stairs(n: int) -> int:
     for _ in range(3, n + 1):
         prev2, prev1 = prev1, prev2 + prev1
     return prev1
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Climbing Stairs
+    print('Tested climbing_stairs.py (Climbing Stairs)')
