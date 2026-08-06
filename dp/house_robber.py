@@ -1,3 +1,10 @@
+"""
+Problem: House Robber
+Approach: Rolling register dp
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""
+
 def rob(nums: list[int]) -> int:
     """Maximize loot without robbing two adjacent houses."""
     rob1, rob2 = 0, 0
