@@ -37,3 +37,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Network Delay Time (Dijkstra)** (`graphs/dijkstra_shortest_path.py`): min-heap priority queue — Time `O(E log V)`, Space `O(V + E)`
 - **Redundant Connection** (`graphs/union_find_redundant_connection.py`): Disjoint Set Union (path compression + rank) — Time `O(n alpha(n))`, Space `O(n)`
 - **Climbing Stairs** (`dp/climbing_stairs.py`): space-optimized bottom-up DP — Time `O(n)`, Space `O(1)`
+- **House Robber** (`dp/house_robber.py`): rolling register DP — Time `O(n)`, Space `O(1)`
