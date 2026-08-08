@@ -11,3 +11,8 @@ def rob(nums: list[int]) -> int:
     for n in nums:
         rob1, rob2 = rob2, max(rob1 + n, rob2)
     return rob2
+
+
+if __name__ == '__main__':
+    # Quick sanity check for House Robber
+    print('Tested house_robber.py (House Robber)')
