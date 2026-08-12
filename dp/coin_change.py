@@ -1,3 +1,10 @@
+"""
+Problem: Coin Change
+Approach: Bottom-up 1d tabulation
+Time Complexity: O(amount * len(coins))
+Space Complexity: O(amount)
+"""
+
 def coin_change(coins: list[int], amount: int) -> int:
     """Find fewest number of coins needed to make up amount."""
     dp = [amount + 1] * (amount + 1)
