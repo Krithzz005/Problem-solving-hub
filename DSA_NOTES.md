@@ -38,3 +38,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Redundant Connection** (`graphs/union_find_redundant_connection.py`): Disjoint Set Union (path compression + rank) — Time `O(n alpha(n))`, Space `O(n)`
 - **Climbing Stairs** (`dp/climbing_stairs.py`): space-optimized bottom-up DP — Time `O(n)`, Space `O(1)`
 - **House Robber** (`dp/house_robber.py`): rolling register DP — Time `O(n)`, Space `O(1)`
+- **Coin Change** (`dp/coin_change.py`): bottom-up 1D tabulation — Time `O(amount * len(coins))`, Space `O(amount)`
