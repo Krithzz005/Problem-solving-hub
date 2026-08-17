@@ -1,3 +1,10 @@
+"""
+Problem: Longest Increasing Subsequence
+Approach: Patience sorting + binary search
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+"""
+
 import bisect
 
 def length_of_lis(nums: list[int]) -> int:
