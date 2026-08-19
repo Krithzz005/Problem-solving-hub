@@ -39,3 +39,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Climbing Stairs** (`dp/climbing_stairs.py`): space-optimized bottom-up DP — Time `O(n)`, Space `O(1)`
 - **House Robber** (`dp/house_robber.py`): rolling register DP — Time `O(n)`, Space `O(1)`
 - **Coin Change** (`dp/coin_change.py`): bottom-up 1D tabulation — Time `O(amount * len(coins))`, Space `O(amount)`
+- **Longest Increasing Subsequence** (`dp/longest_increasing_subsequence.py`): patience sorting + binary search — Time `O(n log n)`, Space `O(n)`
