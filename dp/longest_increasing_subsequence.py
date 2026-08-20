@@ -17,3 +17,8 @@ def length_of_lis(nums: list[int]) -> int:
         else:
             tails[idx] = x
     return len(tails)
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Longest Increasing Subsequence
+    print('Tested longest_increasing_subsequence.py (Longest Increasing Subsequence)')
