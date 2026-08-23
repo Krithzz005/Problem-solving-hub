@@ -1,3 +1,10 @@
+"""
+Problem: Longest Common Subsequence
+Approach: Space-optimized 2d dp
+Time Complexity: O(m * n)
+Space Complexity: O(min(m, n))
+"""
+
 def longest_common_subsequence(text1: str, text2: str) -> int:
     """Compute LCS between two strings using two rolling rows."""
     if len(text1) < len(text2):
