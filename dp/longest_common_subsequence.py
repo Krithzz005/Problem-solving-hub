@@ -19,3 +19,8 @@ def longest_common_subsequence(text1: str, text2: str) -> int:
                 curr[j] = max(prev[j], curr[j - 1])
         prev = curr
     return prev[-1]
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Longest Common Subsequence
+    print('Tested longest_common_subsequence.py (Longest Common Subsequence)')
