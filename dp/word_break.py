@@ -16,3 +16,8 @@ def word_break(s: str, word_dict: list[str]) -> bool:
                 dp[i] = True
                 break
     return dp[-1]
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Word Break
+    print('Tested word_break.py (Word Break)')
