@@ -42,3 +42,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Longest Increasing Subsequence** (`dp/longest_increasing_subsequence.py`): patience sorting + binary search — Time `O(n log n)`, Space `O(n)`
 - **Longest Common Subsequence** (`dp/longest_common_subsequence.py`): space-optimized 2D DP — Time `O(m * n)`, Space `O(min(m, n))`
 - **Word Break** (`dp/word_break.py`): DP with hash set lookup — Time `O(n^2)`, Space `O(n)`
+- **Edit Distance** (`dp/edit_distance.py`): Levenshtein distance DP — Time `O(m * n)`, Space `O(n)`
