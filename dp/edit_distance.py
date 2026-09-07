@@ -18,3 +18,8 @@ def min_distance(word1: str, word2: str) -> int:
                 curr[j] = 1 + min(prev[j - 1], prev[j], curr[j - 1])
         prev = curr
     return prev[n]
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Edit Distance
+    print('Tested edit_distance.py (Edit Distance)')
