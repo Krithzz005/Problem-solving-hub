@@ -1,3 +1,10 @@
+"""
+Problem: Top K Frequent Elements
+Approach: Bucket sort frequency mapping
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
+
 from collections import Counter
 
 def top_k_frequent(nums: list[int], k: int) -> list[int]:
