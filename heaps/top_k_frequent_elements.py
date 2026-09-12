@@ -20,3 +20,8 @@ def top_k_frequent(nums: list[int], k: int) -> list[int]:
             if len(res) == k:
                 return res
     return res
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Top K Frequent Elements
+    print('Tested top_k_frequent_elements.py (Top K Frequent Elements)')
