@@ -1,3 +1,10 @@
+"""
+Problem: Find Median from Data Stream
+Approach: Two heaps (max-heap + min-heap)
+Time Complexity: O(log n)
+Space Complexity: O(n)
+"""
+
 import heapq
 
 class MedianFinder:
