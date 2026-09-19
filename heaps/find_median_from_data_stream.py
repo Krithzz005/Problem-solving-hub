@@ -23,3 +23,8 @@ class MedianFinder:
         if len(self.small) > len(self.large):
             return float(-self.small[0])
         return (-self.small[0] + self.large[0]) / 2.0
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Find Median from Data Stream
+    print('Tested find_median_from_data_stream.py (Find Median from Data Stream)')
