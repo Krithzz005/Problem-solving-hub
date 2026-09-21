@@ -1,3 +1,10 @@
+"""
+Problem: Subsets
+Approach: Backtracking decision tree
+Time Complexity: O(n * 2^n)
+Space Complexity: O(n)
+"""
+
 def subsets(nums: list[int]) -> list[list[int]]:
     """Generate power set of all possible subsets."""
     res = []
