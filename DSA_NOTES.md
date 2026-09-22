@@ -45,3 +45,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Edit Distance** (`dp/edit_distance.py`): Levenshtein distance DP — Time `O(m * n)`, Space `O(n)`
 - **Top K Frequent Elements** (`heaps/top_k_frequent_elements.py`): bucket sort frequency mapping — Time `O(n)`, Space `O(n)`
 - **Find Median from Data Stream** (`heaps/find_median_from_data_stream.py`): two heaps (max-heap + min-heap) — Time `O(log n)`, Space `O(n)`
+- **Subsets** (`backtracking/subsets.py`): backtracking decision tree — Time `O(n * 2^n)`, Space `O(n)`
