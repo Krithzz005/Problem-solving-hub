@@ -21,3 +21,8 @@ def subsets(nums: list[int]) -> list[list[int]]:
 
     backtrack(0)
     return res
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Subsets
+    print('Tested subsets.py (Subsets)')
