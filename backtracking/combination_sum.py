@@ -1,3 +1,10 @@
+"""
+Problem: Combination Sum
+Approach: Dfs with pruning
+Time Complexity: O(2^t)
+Space Complexity: O(t)
+"""
+
 def combination_sum(candidates: list[int], target: int) -> list[list[int]]:
     """Find all unique combinations where candidate numbers sum to target."""
     candidates.sort()
