@@ -23,3 +23,8 @@ def combination_sum(candidates: list[int], target: int) -> list[list[int]]:
 
     dfs(0, target, [])
     return res
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Combination Sum
+    print('Tested combination_sum.py (Combination Sum)')
