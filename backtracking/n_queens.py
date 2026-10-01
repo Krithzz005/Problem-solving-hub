@@ -1,3 +1,10 @@
+"""
+Problem: N-Queens
+Approach: Backtracking with bitmask/set constraints
+Time Complexity: O(N!)
+Space Complexity: O(N^2)
+"""
+
 def solve_n_queens(n: int) -> list[list[str]]:
     """Place N queens on an N x N chessboard so no two queens attack each other."""
     cols = set()
