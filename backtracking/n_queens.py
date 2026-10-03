@@ -32,3 +32,8 @@ def solve_n_queens(n: int) -> list[list[str]]:
 
     backtrack(0)
     return res
+
+
+if __name__ == '__main__':
+    # Quick sanity check for N-Queens
+    print('Tested n_queens.py (N-Queens)')
