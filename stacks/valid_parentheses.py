@@ -1,3 +1,10 @@
+"""
+Problem: Valid Parentheses
+Approach: Stack bracket matching
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
+
 def is_valid_parentheses(s: str) -> bool:
     """Validate balanced bracket ordering using a LIFO stack."""
     pairs = {')': '(', ']': '[', '}': '{'}
