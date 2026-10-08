@@ -48,3 +48,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Subsets** (`backtracking/subsets.py`): backtracking decision tree — Time `O(n * 2^n)`, Space `O(n)`
 - **Combination Sum** (`backtracking/combination_sum.py`): DFS with pruning — Time `O(2^t)`, Space `O(t)`
 - **N-Queens** (`backtracking/n_queens.py`): backtracking with bitmask/set constraints — Time `O(N!)`, Space `O(N^2)`
+- **Valid Parentheses** (`stacks/valid_parentheses.py`): stack bracket matching — Time `O(n)`, Space `O(n)`
