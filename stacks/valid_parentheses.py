@@ -16,3 +16,8 @@ def is_valid_parentheses(s: str) -> bool:
         else:
             stack.append(ch)
     return not stack
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Valid Parentheses
+    print('Tested valid_parentheses.py (Valid Parentheses)')
