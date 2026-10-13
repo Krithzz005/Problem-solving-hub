@@ -1,3 +1,10 @@
+"""
+Problem: Daily Temperatures
+Approach: Monotonic decreasing stack
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
+
 def daily_temperatures(temperatures: list[int]) -> list[int]:
     """Compute days until a warmer temperature using a monotonic stack."""
     res = [0] * len(temperatures)
