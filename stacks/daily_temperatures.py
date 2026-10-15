@@ -15,3 +15,8 @@ def daily_temperatures(temperatures: list[int]) -> list[int]:
             res[prev_idx] = i - prev_idx
         stack.append(i)
     return res
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Daily Temperatures
+    print('Tested daily_temperatures.py (Daily Temperatures)')
