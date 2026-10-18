@@ -1,3 +1,10 @@
+"""
+Problem: Largest Rectangle in Histogram
+Approach: Monotonic increasing stack
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
+
 def largest_rectangle_area(heights: list[int]) -> int:
     """Find largest rectangular area in histogram in O(n) single pass."""
     stack = []
