@@ -17,3 +17,8 @@ def largest_rectangle_area(heights: list[int]) -> int:
             start = idx
         stack.append((start, h))
     return max_area
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Largest Rectangle in Histogram
+    print('Tested largest_rectangle_in_histogram.py (Largest Rectangle in Histogram)')
