@@ -1,3 +1,10 @@
+"""
+Problem: Thread-Safe Bounded Blocking Queue
+Approach: Condition variables + lock
+Time Complexity: O(1)
+Space Complexity: O(capacity)
+"""
+
 import threading
 from collections import deque
 
