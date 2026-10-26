@@ -51,3 +51,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Valid Parentheses** (`stacks/valid_parentheses.py`): stack bracket matching — Time `O(n)`, Space `O(n)`
 - **Daily Temperatures** (`stacks/daily_temperatures.py`): monotonic decreasing stack — Time `O(n)`, Space `O(n)`
 - **Largest Rectangle in Histogram** (`stacks/largest_rectangle_in_histogram.py`): monotonic increasing stack — Time `O(n)`, Space `O(n)`
+- **Thread-Safe Bounded Blocking Queue** (`concurrency/thread_safe_bounded_queue.py`): Condition variables + Lock — Time `O(1)`, Space `O(capacity)`
