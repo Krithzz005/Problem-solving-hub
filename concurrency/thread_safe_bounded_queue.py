@@ -33,3 +33,8 @@ class BoundedBlockingQueue:
     def size(self) -> int:
         with self.cond:
             return len(self.queue)
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Thread-Safe Bounded Blocking Queue
+    print('Tested thread_safe_bounded_queue.py (Thread-Safe Bounded Blocking Queue)')
