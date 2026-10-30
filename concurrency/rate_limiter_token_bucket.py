@@ -1,3 +1,10 @@
+"""
+Problem: Token Bucket Rate Limiter
+Approach: Thread-safe token replenishment
+Time Complexity: O(1)
+Space Complexity: O(1)
+"""
+
 import time
 import threading
 
