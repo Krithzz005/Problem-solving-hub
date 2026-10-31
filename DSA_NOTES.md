@@ -52,3 +52,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Daily Temperatures** (`stacks/daily_temperatures.py`): monotonic decreasing stack — Time `O(n)`, Space `O(n)`
 - **Largest Rectangle in Histogram** (`stacks/largest_rectangle_in_histogram.py`): monotonic increasing stack — Time `O(n)`, Space `O(n)`
 - **Thread-Safe Bounded Blocking Queue** (`concurrency/thread_safe_bounded_queue.py`): Condition variables + Lock — Time `O(1)`, Space `O(capacity)`
+- **Token Bucket Rate Limiter** (`concurrency/rate_limiter_token_bucket.py`): thread-safe token replenishment — Time `O(1)`, Space `O(1)`
