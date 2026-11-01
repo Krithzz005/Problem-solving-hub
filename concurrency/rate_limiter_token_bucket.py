@@ -27,3 +27,8 @@ class TokenBucketRateLimiter:
                 self.tokens -= tokens_needed
                 return True
             return False
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Token Bucket Rate Limiter
+    print('Tested rate_limiter_token_bucket.py (Token Bucket Rate Limiter)')
