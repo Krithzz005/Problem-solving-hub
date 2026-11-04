@@ -1,3 +1,10 @@
+"""
+Problem: Longest Palindromic Substring
+Approach: Expand around center
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+"""
+
 def longest_palindrome(s: str) -> str:
     """Find longest palindromic substring by expanding around odd and even centers."""
     res_start, res_len = 0, 0
