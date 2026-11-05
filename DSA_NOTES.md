@@ -53,3 +53,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Largest Rectangle in Histogram** (`stacks/largest_rectangle_in_histogram.py`): monotonic increasing stack — Time `O(n)`, Space `O(n)`
 - **Thread-Safe Bounded Blocking Queue** (`concurrency/thread_safe_bounded_queue.py`): Condition variables + Lock — Time `O(1)`, Space `O(capacity)`
 - **Token Bucket Rate Limiter** (`concurrency/rate_limiter_token_bucket.py`): thread-safe token replenishment — Time `O(1)`, Space `O(1)`
+- **Longest Palindromic Substring** (`strings/longest_palindromic_substring.py`): expand around center — Time `O(n^2)`, Space `O(1)`
