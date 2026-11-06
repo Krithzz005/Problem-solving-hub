@@ -22,3 +22,8 @@ def longest_palindrome(s: str) -> str:
         expand(i, i)
         expand(i, i + 1)
     return s[res_start:res_start + res_len]
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Longest Palindromic Substring
+    print('Tested longest_palindromic_substring.py (Longest Palindromic Substring)')
