@@ -1,3 +1,10 @@
+"""
+Problem: Group Anagrams
+Approach: Character frequency tuple key
+Time Complexity: O(n * k)
+Space Complexity: O(n * k)
+"""
+
 from collections import defaultdict
 
 def group_anagrams(strs: list[str]) -> list[list[str]]:
