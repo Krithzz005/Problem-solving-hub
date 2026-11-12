@@ -16,3 +16,8 @@ def group_anagrams(strs: list[str]) -> list[list[str]]:
             count[ord(ch) - ord('a')] += 1
         groups[tuple(count)].append(s)
     return list(groups.values())
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Group Anagrams
+    print('Tested group_anagrams.py (Group Anagrams)')
