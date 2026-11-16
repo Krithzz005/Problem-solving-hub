@@ -1,3 +1,10 @@
+"""
+Problem: Encode and Decode Strings
+Approach: Length-prefixed framing
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
+
 def encode(strs: list[str]) -> str:
     """Serialize list of strings using length-prefix delimiter framing."""
     return "".join(f"{len(s)}#{s}" for s in strs)
