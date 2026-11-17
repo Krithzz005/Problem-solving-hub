@@ -55,3 +55,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Token Bucket Rate Limiter** (`concurrency/rate_limiter_token_bucket.py`): thread-safe token replenishment — Time `O(1)`, Space `O(1)`
 - **Longest Palindromic Substring** (`strings/longest_palindromic_substring.py`): expand around center — Time `O(n^2)`, Space `O(1)`
 - **Group Anagrams** (`strings/group_anagrams.py`): character frequency tuple key — Time `O(n * k)`, Space `O(n * k)`
+- **Encode and Decode Strings** (`strings/encode_and_decode_strings.py`): length-prefixed framing — Time `O(n)`, Space `O(n)`
