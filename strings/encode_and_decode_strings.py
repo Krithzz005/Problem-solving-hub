@@ -18,3 +18,8 @@ def decode(s: str) -> list[str]:
         res.append(s[j + 1 : j + 1 + length])
         i = j + 1 + length
     return res
+
+
+if __name__ == '__main__':
+    # Quick sanity check for Encode and Decode Strings
+    print('Tested encode_and_decode_strings.py (Encode and Decode Strings)')
