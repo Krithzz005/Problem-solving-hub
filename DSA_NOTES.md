@@ -57,3 +57,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Group Anagrams** (`strings/group_anagrams.py`): character frequency tuple key — Time `O(n * k)`, Space `O(n * k)`
 - **Encode and Decode Strings** (`strings/encode_and_decode_strings.py`): length-prefixed framing — Time `O(n)`, Space `O(n)`
 - **Cheapest Flights Within K Stops** (`graphs/bellman_ford_cheapest_flights.py`): Bellman-Ford bounded relaxation — Time `O(K * E)`, Space `O(V)`
+- **Serialize and Deserialize Binary Tree** (`trees/serialize_deserialize_binary_tree.py`): preorder DFS with null sentinels — Time `O(n)`, Space `O(n)`
