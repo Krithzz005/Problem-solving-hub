@@ -59,3 +59,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Cheapest Flights Within K Stops** (`graphs/bellman_ford_cheapest_flights.py`): Bellman-Ford bounded relaxation — Time `O(K * E)`, Space `O(V)`
 - **Serialize and Deserialize Binary Tree** (`trees/serialize_deserialize_binary_tree.py`): preorder DFS with null sentinels — Time `O(n)`, Space `O(n)`
 - **Readers-Writer Lock (Write-Preferring)** (`concurrency/read_write_lock.py`): Condition variable synchronization preventing writer starvation — Time `O(1)`, Space `O(1)`
+- **Target Sum** (`dp/target_sum_ways.py`): subset-sum 1D dynamic programming reduction — Time `O(n * S)`, Space `O(S)`
