@@ -61,3 +61,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Readers-Writer Lock (Write-Preferring)** (`concurrency/read_write_lock.py`): Condition variable synchronization preventing writer starvation — Time `O(1)`, Space `O(1)`
 - **Target Sum** (`dp/target_sum_ways.py`): subset-sum 1D dynamic programming reduction — Time `O(n * S)`, Space `O(S)`
 - **Alien Dictionary** (`graphs/alien_dictionary_toposort.py`): character precedence graph + Kahn's BFS topological sort — Time `O(C)`, Space `O(U + min(U^2, N))`
+- **Subarray Sum Equals K** (`arrays/subarray_sum_equals_k.py`): prefix sum frequency hash map — Time `O(n)`, Space `O(n)`
