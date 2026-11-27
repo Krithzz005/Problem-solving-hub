@@ -64,3 +64,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Subarray Sum Equals K** (`arrays/subarray_sum_equals_k.py`): prefix sum frequency hash map — Time `O(n)`, Space `O(n)`
 - **Task Scheduler** (`heaps/task_scheduler_cooldown.py`): greedy max-frequency bucket math — Time `O(N)`, Space `O(1)`
 - **Median of Two Sorted Arrays** (`binary_search/median_of_two_sorted_arrays.py`): binary search on smaller array partition — Time `O(log(min(m, n)))`, Space `O(1)`
+- **Burst Balloons** (`dp/burst_balloons_interval_dp.py`): bottom-up interval dynamic programming — Time `O(n^3)`, Space `O(n^2)`
