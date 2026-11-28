@@ -65,3 +65,4 @@ Implementations of data structures, algorithms, and concurrency patterns with ti
 - **Task Scheduler** (`heaps/task_scheduler_cooldown.py`): greedy max-frequency bucket math — Time `O(N)`, Space `O(1)`
 - **Median of Two Sorted Arrays** (`binary_search/median_of_two_sorted_arrays.py`): binary search on smaller array partition — Time `O(log(min(m, n)))`, Space `O(1)`
 - **Burst Balloons** (`dp/burst_balloons_interval_dp.py`): bottom-up interval dynamic programming — Time `O(n^3)`, Space `O(n^2)`
+- **Binary Tree Maximum Path Sum** (`trees/binary_tree_maximum_path_sum.py`): post-order DFS tracking split vs non-split path gain — Time `O(n)`, Space `O(h)`
